@@ -1,0 +1,7 @@
+venv
+__pycache__
+.pytest_cache
+.env
+test_data/large_files/*
+test_data/data.zip
+test_data/download.txt
