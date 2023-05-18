@@ -1,10 +1,10 @@
 docker run \
-    --name madi_test_filebrowser \
+    --name test_filebrowser \
     -d \
     --rm \
-    -v /home/madi/Desktop/projects/filebrowser_test/data:/srv \
-    -v /home/madi/Desktop/projects/filebrowser_test/madi.db:/database/filebrowser.db \
-    -v /home/madi/Desktop/projects/filebrowser_test/settings.json:/config/settings.json \
+    -v ./data:/srv \
+    -v ./filebrowser.db:/database/filebrowser.db \
+    -v ./settings.json:/config/settings.json \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
     -p 8080:80 \
