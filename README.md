@@ -1,6 +1,6 @@
 # FileBrowser Manager
 
->This an example to display how to use RESTful API to execute CRUD operations, such as uploading files, download files, create remote folder, login, ... in [File Browser](https://github.com/filebrowser/filebrowser), which is a popular open source web file explorer.
+>This is an example to display how to use RESTful API to execute CRUD operations, such as uploading files, download files, create remote folder, login, ... in [File Browser](https://github.com/filebrowser/filebrowser), which is a popular open source web file explorer.
 
 Provide simple CRUD of FileBrowser operations in Python, and simply profile the uploading performance with sequential and concurrent manners.
 
